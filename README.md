@@ -2,11 +2,11 @@
 
 This using typescript, next.js, redux, material-ui is simple, and is a sample corresponding to the server side rendering.
 
-By VSCode and prettier and TSLint, realtime code format and realtime sentence structure check and rearranging of unused import are carried out in real time.
+By VSCode and prettier and ESLint, realtime code format and realtime sentence structure check and rearranging of unused import are carried out in real time.
 
 これは、typescript, next.js, redux, material-ui を使った、シンプルでサーバーサイドレンダリングに対応したサンプルです。
 
-VSCode と prettier と TSLint によって、リアルタイムに整形と構文チェックと未使用 import の整理が行われます。
+VSCode と prettier と ESLint によって、リアルタイムに整形と構文チェックと未使用 import の整理が行われます。
 
 ## Live demo
 
@@ -34,7 +34,7 @@ VSCode と prettier と TSLint によって、リアルタイムに整形と構�
 - [redux-saga](https://redux-saga.js.org/)
 - [typescript-fsa](https://github.com/aikoven/typescript-fsa)
 - [typescript-fsa-reducer](https://github.com/dphilipson/typescript-fsa-reducers)
-- [TSLint](https://palantir.github.io/tslint/)
+- [ESLint](https://eslint.org/)
 
 ## Requirement
 
@@ -50,18 +50,10 @@ VSCode と prettier と TSLint によって、リアルタイムに整形と構�
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
 ## Usage
-
-### Download and install
-
-```bash
-git clone https://github.com/treetips/typescript-nextjs-redux-material-ui-example.git
-cd typescript-nextjs-redux-material-ui-example
-npm i
-```
 
 ### Start local
 
@@ -89,7 +81,3 @@ vi ./deploy-appengine.sh
 ```bash
 ./deploy-appengine.sh
 ```
-
-## Related repository
-
-* [typescript-nextjs-redux-toolkit-material-ui-example](https://github.com/treetips/typescript-nextjs-redux-toolkit-material-ui-example)
